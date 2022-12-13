@@ -12,10 +12,10 @@
 
 	<table>
 		<thead>
-			<tr>
+			<!-- <tr></tr> -->
 				<th>Roll numbers</th>
 				<th>Names</th>
-			</tr>
+			<!-- </tr> -->
 		</thead>
 		<tbody>
 			<tr>
@@ -32,8 +32,20 @@
 	<h1>List of medias</h1>
 	<ol>
 		<li><img src="https://picsum.photos/id/123/200/300" alt="pic"></li>
-		<li><video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" controls muted></video></li>
-		<li><audio src="http://commondatastorage.googleapis. com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg" controls muted></audio></li>
+
+		<!-- <li><video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" controls muted></video></li> -->
+
+		<li>
+			<video controls muted >
+			<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4"/>
+			</video>
+		</li>
+
+		<li>
+			<audio controls>
+			<source src="http://commondatastorage.googleapis. com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg"/>
+			</audio>
+		</li>
 	</ol>
 
 	<script type="text/javascript" src="./script.js">
